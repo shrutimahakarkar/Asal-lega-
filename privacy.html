@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>privacy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .container h1 {
+      font-size: 2rem;
+      color: #333;
+      margin: 20px 0;
+    } 
+    .container p {
+      /* border-top: 1px solid grey; */
+      font-size: 1rem;
+      color: #5e5a5a;
+      line-height: 1.6;
+    }
+   
+    .button-container {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.agree {
+    /* background-color: #28a745; */
+    color: black;
+}
+
+.agree:hover {
+    background-color: gray;
+}
+
+.disagree {
+    color: black;
+}
+
+.disagree:hover {
+    background-color: gray;
+}
+  </style>
+  
+</head>
+
+<body>
+  <div class="container">
+    
+    <h1>DISCLAIMER</h1>
+    <p>
+        This website has been designed only for the purposes of dissemination of basic information on Akash Kakade; information which is otherwise available on the internet, various public platforms and social media. Careful attention has been given to ensure that the information provided herein is accurate and up-to-date. However, Akash Kakade is not responsible for any reliance that a reader places on such information and shall not be liable for any loss or damage caused due to any inaccuracy in or exclusion of any information, or its interpretation thereof. Reader is advised to confirm the veracity of the same from independent and expert sources. 
+
+This website is not an attempt to advertise or solicit clients, and does not seek to create or invite any lawyer-client relationship. The links provided on this website are to facilitate access to basic information on Akash Kakade, and, to share the various thought leadership initiatives undertaken by it. The content herein or on such links should not be construed as a legal reference or legal advice. Readers are advised not to act on any information contained herein or on the links and should refer to legal counsels and experts in their respective jurisdictions for further information and to determine its impact. 
+
+Akash Kakade advises against the use of the communication platform provided on this website for exchange of any confidential, business or politically sensitive information. User is requested to use his or her judgment and exchange of any such information shall be solely at the user’s risk. 
+
+Akash Kakade uses cookies on its website to improve its usability. This helps us in providing a good user experience and to also help in improving our website. By continuing to use our website without changing your privacy settings, you agree to use our cookies. 
+    </p>
+    <div class="button-container">
+        <button class="agree" onclick="showAlert('You agreed!')">Agree</button>
+        <button class="disagree" onclick="showAlert('You disagreed!')">Disagree</button>
+    </div>
+    <script>
+        function showAlert(message) {
+            alert(message);
+        }
+    </script>
+  </div>
+</body>
+</html>
